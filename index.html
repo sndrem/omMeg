@@ -1,13 +1,105 @@
-<!DOCTYPE html>
-<html>
-	<meta char="utf-8">
-	<head>
-		<title>Sindre Moldeklev</title>
-	</head>
+---
+layout: default
+active: "Hjem"
+---
 
-	<body>
-	
-		<h1>Denne nettsiden handler om Meg, Sindre Moldeklev.</h1>
 
-	</body>
-</html>
+  <!-- Carousel på forsiden -->
+  
+  <div id="myCarousel" class="carousel container slide carousel-fade" data-ride="myCarousel">
+    
+    <ol class="carousel-indicators">
+      <li data-target = "#myCarousel" data-slide-to = "0" class="active"></li>
+      <li data-target = "#myCarousel" data-slide-to = "1"></li>
+      <li data-target = "#myCarousel" data-slide-to = "2"></li>
+      <li data-target = "#myCarousel" data-slide-to = "3"></li>
+      <li data-target = "#myCarousel" data-slide-to = "4"></li>
+      <li data-target = "#myCarousel" data-slide-to = "5"></li>
+    </ol>
+
+    <!-- .img-responsive gjør at bildene kan skaleres på alle enheter -->
+    <!-- Første item må ha .active for å vises -->
+    
+      <div class="carousel-inner"> <!-- Her legger man til flere bilder -->
+        
+        <div class="item active">
+          <img src="Images/carousel-1.jpg" alt="Bilde her" class="img-responsive">
+          
+        </div>
+
+        <div class="item">
+          <img src="Images/carousel-2.jpg" alt="Bilde her" class="img-responsive">
+          
+        </div>
+
+        <div class="item">
+          <img src="Images/carousel-3.jpg" alt="Bilde her" class="img-responsive">
+          
+        </div>
+
+        <div class="item">
+          <img src="Images/carousel-4.jpg" alt="Bilde her" class="img-responsive">
+          
+        </div>
+
+        <div class="item">
+          <img src="Images/carousel-5.jpg" alt="Bilde her" class="img-responsive">
+          
+        </div>
+
+        <div class="item">
+          <img src="Images/carousel-6.jpg" alt="Bilde her" class="img-responsive">
+        
+        </div>
+      </div> <!-- Slutt på carousel-inner -->
+
+      <a href="#myCarousel" class="carousel-control left" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+
+      <a href="#myCarousel" class="carousel-control right" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+
+  </div> <!-- Slutt på carousel -->
+
+  <!-- Start på poster -->
+  <div class="container">
+      <h1 class="page-heading">Blogposter</h1>
+
+      {% for post in site.posts %}
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <a href="{{ post.url | prepend: site.baseurl }}"><h3> {{ post.title }} </h3></a>
+          </div>
+        </div>
+        <div class="panel-body">
+          {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+        </div>
+      </div>
+
+      {% endfor %}
+  </div>
+  <!-- <div class="panel panel-default">
+    
+
+  </div>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>  -->
+
+  
+
+
