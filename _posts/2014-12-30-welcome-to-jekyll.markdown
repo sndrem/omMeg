@@ -4,6 +4,7 @@ title:  "Jeg lærer meg Jekyll!"
 date:   2014-12-30-velkommen-Jekyll
 author: Sindre Moldeklev
 categories: jekyll update
+tags: reise utforsking
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

@@ -24,7 +24,7 @@ layout: default
 		<div class="col-xs-4">
 			<div class="list-group">
 				{% for post in site.posts %}
-			  <a href="{{site.baseurl}}{{post.url}}" class= "{% if page.url contains post.url %} active {% endif %} list-group-item">{{post.title}}</a>
+			  <a href="{{site.baseurl}}{{post.url}}" class= "{% if page.url contains post.url %} active {% endif %} list-group-item">{{post.title}} <small class="pull-right"> {{ page.date | date: "%-d %B %Y" }}</small></a>
 				{% endfor %}
 			</div>
 		</div>

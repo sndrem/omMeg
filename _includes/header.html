@@ -5,7 +5,7 @@
       <div class="container">
         
         <!-- Navbar-brand for tittelen til siden -->
-        <a href="{{site.baseurl}}" class="navbar-brand">Sindres hjemmeside</a>
+        <a href="{{site.baseurl}}/" class="navbar-brand">Sindres hjemmeside</a>
 
         <!-- Div'er som lager dropdown-knappen -->
         <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
@@ -21,9 +21,9 @@
           <!-- Dersom en knapp skal være aktiv kan man legge til class="active" på et element som feks en knapp. -->
           <ul class="nav navbar-nav navbar-right">
             {% if page.active == "Hjem" %}
-            <li class="active"><a href="{{site.baseurl}}">Hjem</a></li>
+            <li class="active"><a href="{{site.baseurl}}/">Hjem</a></li>
             {% else  %}
-            <li><a href="{{site.baseurl}}">Hjem</a></li>
+            <li><a href="{{site.baseurl}}/">Hjem</a></li>
             {% endif %}
             {% if page.active == "aboutMe" %}
             <li class="active"><a href="{{site.baseurl}}/aboutMe.html">Om Meg</a></li>
