@@ -65,22 +65,26 @@ h2 small {
   color: black;
   opacity: 0.5;
   transition: opacity 1s; }
-
 .panel-heading a:hover {
   opacity: 1; }
 
-a:hover .fa-twitter {
-  color: #4099FF; }
+  a:hover .fa-twitter{
+    
+      color: #4099FF;
+  }
 
-a:hover .fa-facebook {
-  color: #3b5998; }
+    a:hover .fa-facebook{
+    
+      color: #3b5998;
+  }
 
-a:hover .fa-instagram {
-  color: #517fa4; }
+    a:hover .fa-instagram{
+    
+      color: #517fa4;
+  }
 
-.fa {
-  font-size: 22px; }
-
-/*# sourceMappingURL=customStyles.css.map */
+  .fa {
+    font-size: 22px;
+  }
 
 /*# sourceMappingURL=customStyles.css.map */

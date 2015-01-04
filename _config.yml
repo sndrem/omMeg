@@ -4,6 +4,7 @@ email: sndrem@live.no
 description: > # En side om Sindre Moldeklev og hva han driver med. Skriver av og til.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "sndrem.github.io" # the base hostname & protocol for your site
+permalink: pretty
 
 
 # Build settings
