@@ -9,5 +9,8 @@ changefreq: Weekly
 priority: 0.4
 ---		
 
-Fikk tatt årets første tur til Myrkdalen i går. Forholdene var veldige gode, til tross for en del vind. Det snødde også regelmessig gjennom dagen, og dermed var det også ganske dårlig sikt til tider. Ikke så alt for mye folk, og etter at de har åpnet Storhaugekspressen skal det nok komme ganske mye folk før man føler at det er trangt i bakkene. 
+Fikk tatt årets første tur til Myrkdalen i går. Forholdene var veldige gode, til tross for en del vind. Det snødde også regelmessig gjennom dagen, og dermed var det også ganske dårlig sikt til tider. Ikke så alt for mye folk, og etter at de har åpnet Storhaugekspressen skal det nok komme ganske mye folk før man føler at det er trangt i bakkene.  
+
+<center><img class="post-image" src="{{site.baseurl}}/Images/myrkdalen.jpg" alt="Myrkdalen med sol og snøfokk"></center> <br>
+
 

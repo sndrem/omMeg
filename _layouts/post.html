@@ -9,7 +9,7 @@ layout: default
 			<div class="panel panel-default">
 				<div class="panel-heading">
 					<div class="panel-title">
-						<h2> {{ page.title }} <small> <h4> {% if page.author %} <i class="fa fa-pencil"></i> {{ page.author }}{% endif %}</h4> </small> </h2>
+						<h2> {{ page.title }} <small> <h4> {% if page.author %} <i class="fa fa-pencil"></i> <a href="{{site.baseurl}}/aboutMe/">{{ page.author }} </a> {% endif %}</h4> </small> </h2>
 					</div>
 				</div>
 				<div class="panel-body">
@@ -17,6 +17,7 @@ layout: default
 				</div>
 				<div class="panel-footer">
 					<small> <i class="fa fa-clock-o"></i> {{ page.date | date: "%b %-d, %Y" }} </small>
+					{% include disqus.html %}
 				</div>
 			</div>
 		</div>
